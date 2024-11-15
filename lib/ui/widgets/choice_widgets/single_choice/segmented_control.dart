@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_reusable_stuff/ui/widgets/choice_widgets/option.dart';
 
 // Suited for single choice collection with few items
 class SegmentedControl extends StatelessWidget {
@@ -82,11 +83,3 @@ class SegmentedControl extends StatelessWidget {
     );
   }
 }
-
-class Option {
-  final String name;
-  final String value;
-
-  const Option({required this.name, required this.value});
-}
-
