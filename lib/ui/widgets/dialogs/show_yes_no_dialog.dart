@@ -13,14 +13,14 @@ void showYesNoDialog({
         actions: [
           TextButton(
             onPressed: () {
-              Navigator.of(context).pop(); // Close dialog
+              Navigator.of(context).pop();
             },
             child: Text('No'),
           ),
           TextButton(
             onPressed: () {
-              Navigator.of(context).pop(); // Close dialog
-              onPositiveButtonClick(); // Execute positive button action
+              Navigator.of(context).pop();
+              onPositiveButtonClick();
             },
             child: Text('Yes'),
           ),
